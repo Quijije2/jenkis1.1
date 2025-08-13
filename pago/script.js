@@ -64,7 +64,7 @@ function updatePayphoneButton(total, amountWithoutTax) {
     try {
       const ppb = new PPaymentButtonBox({
         token: 
-        'n9Km3JNLG6xfVFdfytpOQ2htHTbEaUaFWMJIP_hNv3kJczbem7T8uVcip5FzTx8bIn17chRmkZri4g2F2iOAHAt7hUdJXa4GsV9XaHpk42Vv4RbI2X0W8S1GAbopqh0KjRnhw3jWau3wmMpliCxJVuMt5JOcESYJieVOltRvvYuMRcoCsdIMUJw7d5B7gx8N-Xqe6L1LbESnOIUvfREUoseTXGa3VrC3BdOx-RrnemvkZQErpFWkor1Kr-PKuTwSNbVTyvnmR46rqo2Qm9bkSDkayqO9BgYGPvH-w5BHhLoeVGPNrd4XoMsipWnAnljbrxO2K0adqdnB9TtfiMj8KnGBfUk',
+        'MJdobeRLxRj1qoJKBk0gJPi3SqVAn1lUEyPpYtK1Jg21deruq_SbqFKJ2nxbdX4LKPFuuWtNtYR8K4_gB6f5DPyDBNCUEHvBm_yXvHGUz4VhUHvhFJDjzpOu0tNu1rJhTdvPjZK2CPH98lkgzQ1ZS2Bc_Ml9s8BXgpw1uPSkcfcHDMvTCNdDYsHi5mlnWPujJByqpiMrYx1xi1Xec6dcIbJ9vBbDyuH_Ykua3nQlr_48Pe845OvUu3_Lv35g18cd9c7Rh1FqMn_-XKjLYejneoucGqCf14o0dXCQ86jxfrvEhY_7G5anHmw_OhR__mDXahpaK9bAp2E7mT3PAAKWFmD4nXo',
         clientTransactionId: 'pedido_' + Date.now(),
         amount: Math.round(total * 100),
         amountWithoutTax: Math.round(amountWithoutTax * 100),
